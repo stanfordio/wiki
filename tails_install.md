@@ -10,13 +10,13 @@ Note that this will not protect you against every threat (nothing ever does). Fo
 
 ## Installation Guide
 Below are instructions for getting a Tails VM up and running.
-1. ## Download and install VirtualBox
+1.  **Download and install VirtualBox**
 VirtualBox is a program that runs virtual machines from your local computer. If you're curious how this works, [here](https://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/)'s a decent explanation at the layperson level. You can find install instructions [here](https://www.virtualbox.org/wiki/Downloads). Note: on MacOS, you might run into a security error with the package installer. Follow the prompts to create a security exception in Settings, aftwards it should work if you retry the install from the downloaded `.pkg`.
-2. ## Download Tails ISO
+2. **Download Tails ISO**
 An [ISO](https://en.wikipedia.org/wiki/ISO_image) is a disk image -- what's burned onto CDs and DVDs. It's also how operating system images are generallyl stored. Download the Tails ISO from [here](https://tails.boum.org/install/vm-download/index.en.html), making sure to select `Direct Download` and to note to where you've downloaded it.
-3. ## Install Tails VM
+3.  **Install Tails VM**
 Follow these instructions on how to create a Tails VM Image from your downloaded ISO. Note: At step 4, if you want the VM to have persistent storage (i.e. not have the hard drive wiped every time you shut down the image), you'll want to deviate from the instruction here and choose `create new virtual disk`. Click through the default suggestions from there and you should be able to continue with the instructions without incident.
-4. ## Run It
+4.  **Run It**
 Click on the new VM and select `Run`. If you're on MacOS, you're going to get a lot of permissions requests that are automatically blocked (like for keyboard access). Click through everything to approve any permissions VirtualBox asks for. You might have to Quit (close) VirtualBox a few times for the changes to take effect. Once everything works, start up the VM again and click through the setup prompts. Congrats, you're now using Tails! Go to applications -> internet -> TOR browser to start using the internet.
 
 # Using Tails
